@@ -1,0 +1,76 @@
+<!--#include virtual="../header.html" -->
+
+<div class="width-f pl">
+    <!--#include virtual="../topheader.html" -->
+    <div class="custom-wrapper mg100t row">
+
+        <div class="large-8 medium-10 columns center">
+            <div class="width-f pl">
+
+                <div class="row width-f pl">
+                    <div class="width-f pl textc posr">
+                        <h2 class="custom-header2 bold">
+
+                            Kenyatta University
+
+                        </h2>
+
+                    </div>
+
+                    <div class="width-f pl textc posr posr">
+                        <h3 class="custom-header3 mg10tb">
+
+                            School of Engineering & Technology
+
+                        </h3>
+                        <div class="pr posa right0 top0 mg10t">
+                            <a href="#" data-toggle="modal" data-target="#edit-institution" class="btn btn-primary">Edit</a>
+                        </div>
+                    </div>
+
+
+                    <div class="xlarge-3 large-3 show-l columns content-curation pg0a curation">
+                        <div class="width-f pl z-depth-1 bor1 bora borccc bgff pg10a">
+                            <ul class="width-f pl mg0a pg0a no-bullet side-tabs">
+                                <li class="width-f pl mg0a active">
+                                    <a class="width-f pl pg10a" href="#" data-toggle="tab" data-target="#view-school">
+                                        School Profile
+                                    </a>
+                                </li>
+                                <li class="width-f pl mg0a">
+                                    <a class="width-f pl pg10a" href="#" data-toggle="tab" data-target="#add-course">
+                                        Add Course/ Degree
+                                    </a>
+                                </li>
+                                <li class="width-f pl mg0a">
+                                    <a class="width-f pl pg10a" href="#" data-toggle="tab" data-target="#view-course">
+                                        view Course/ Degree
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="xlarge-9 large-9 columns content-curation ">
+                        <div class="width-f pl tab-content">
+                            <div id="view-school" class="width-f pl mg20b tab-pane active">
+                                <!--#include virtual="add-school-curation.shtml" -->
+                            </div>
+                            <div id="add-course" class="width-f pl mg20b tab-pane">
+                                <!--#include virtual="add-course-curation.shtml" -->
+                            </div>
+                            <div id="view-course" class="width-f pl mg20b tab-pane">
+                                <!--#include virtual="view-all-course-curation.shtml" -->
+                            </div>
+                            <div id="add-topic" class="width-f pl mg20b tab-pane">
+                                <!--#include virtual="add-topic-curation.shtml" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--#include virtual="../footer.html" -->

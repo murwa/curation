@@ -1,0 +1,25 @@
+<div class="width-f pl tb-style1 bor1 bora borcdd">
+    <div class="width-f pl pg10a ">
+        <div class="width50 pl pg10r">
+            <label for="">
+                <i class="fa fa-edit mg5r"></i>
+                Topic Name
+            </label>
+            <div class="width-f pl">
+                <input class="input" type="text" placeholder="Topic Name"/>
+            </div>
+        </div>
+        <div class="width50 pl pg10l">
+            <label for="">
+                <i class="fa fa-tag mg5r"></i>
+                Database Tag
+            </label>
+            <div class="width-f pl">
+                <input class="input" type="text" placeholder="Database Tag"/>
+            </div>
+        </div>
+    </div>
+    <div class="width-f pl pg10a  textc">
+        <button class="btn btn-primary">Save</button>
+    </div>
+</div>

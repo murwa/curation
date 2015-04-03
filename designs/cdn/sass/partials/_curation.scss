@@ -1,0 +1,16 @@
+.curation-tabs{
+
+  li{
+
+    &.active{
+
+      a{
+        background: $succes;
+
+        i,h4{
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}

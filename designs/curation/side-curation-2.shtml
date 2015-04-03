@@ -1,0 +1,280 @@
+<div class="xlarge-2c large-3 show-l columns pg20l pg0r">
+<div class="width-f pl pg10a" style="background: #2B2E3D">
+    <div class="width-f pl pg5lr pg10b">
+        <h5 class="custom-header5 textl crcc borb bor1 borccc pg5tb">
+            Institution Notification <span class="mg20l bora bor1 borcbb br5 pg15lr pg0tb">6</span>
+        </h5>
+        <div class="width-f pl">
+            <ul class="width-f pl mg0a no-bullet">
+                <li class="width-f pl mg10tb">
+                    <div class="pl">
+                        <i class="fa fa-institution crcc"></i>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="pl crgiga3 mg5r bold" href="#">Communication 101</a>
+                        <p class="crcc">
+                            Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram .
+                        </p>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb">
+                    <div class="pl">
+                        <i class="fa fa-institution crcc"></i>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="pl crgiga3 mg5r bold" href="#">Communication 101</a>
+                        <p class="crcc">
+                            Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram .
+                        </p>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb">
+                    <div class="pl">
+                        <i class="fa fa-institution crcc"></i>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="pl crgiga3 mg5r bold" href="#">Communication 101</a>
+                        <p class="crcc">
+                            Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram .
+                        </p>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb">
+                    <div class="pl">
+                        <i class="fa fa-institution crcc"></i>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="pl crgiga3 mg5r bold" href="#">Communication 101</a>
+                        <p class="crcc">
+                            Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram .
+                        </p>
+                    </div>
+                </li>
+                <li class="width-f pl mg10t">
+                    <div class="pr pg10lr">
+                        <a href="#" class="crgiga3">
+                            See All
+                            <i class="fa fa-caret-square-o-right mg5l"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="width-f pl pg5lr pg10b">
+        <h5 class="custom-header5 textl crcc borb bor1 borccc pg5b">
+            Mentor Feeds <span class="mg20l bora bor1 borcbb br5 pg15lr pg0tb">21</span>
+        </h5>
+        <div class="width-f pl">
+            <ul class="width-f pl mg0a no-bullet">
+                <li class="width-f pl mg10tb mentor-preview">
+                    <div class="mentor-preview-home">
+                        <div class="mentor-preview-home-content">
+                            <div class="width-f pl pg10a">
+                                <div class="pl width60x hgt60 ovh br50p">
+                                    <img class="width-f" src="../images/default-image3.jpg" alt=""/>
+                                </div>
+                                <div class="width_auto ovh pg10l pg10t">
+                                    <span class="width-f pl crgiga3 mg5r bold" href="#">Barrack Obama</span>
+                                    <p class="width-f pl cr66">
+                                        Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram voluptatum ex has.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="width-f bgf4 pg3tb pg8lr pl bort bor1 borcdd">
+
+                                <div class="width-f pl pg5lr">
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-heart mg5r crbb"></i>
+                                        .
+                                        Like
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-envelope mg5r crbb"></i>
+                                        .
+                                        Comment
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-share-alt mg5r crbb"></i>
+                                        .
+                                        Gig
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width-f pl">
+                        <div class="pl width60x hgt60 ovh br50p">
+                            <img class="width-f" src="../images/default-image2.jpg" alt=""/>
+                        </div>
+                        <div class="width_auto ovh pg10l pg10t">
+                            <span class="width-f pl crgiga3 mg5r bold" href="#">Bill Gates</span>
+                            <p class="width-f pl crcc">
+                                Became Tom Aseka's Mentor
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb mentor-preview">
+
+                    <div class="mentor-preview-home">
+                        <div class="mentor-preview-home-content">
+                            <div class="width-f pl pg10a">
+                                <div class="pl width60x hgt60 ovh br50p">
+                                    <img class="width-f" src="../images/default-image3.jpg" alt=""/>
+                                </div>
+                                <div class="width_auto ovh pg10l pg10t">
+                                    <span class="width-f pl crgiga3 mg5r bold" href="#">Barrack Obama</span>
+                                    <p class="width-f pl cr66">
+                                        Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram voluptatum ex has.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="width-f bgf4 pg3tb pg8lr pl bort bor1 borcdd">
+
+                                <div class="width-f pl pg5lr">
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-heart mg5r crbb"></i>
+                                        .
+                                        Like
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-envelope mg5r crbb"></i>
+                                        .
+                                        Comment
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-share-alt mg5r crbb"></i>
+                                        .
+                                        Gig
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width-f pl">
+                        <div class="pl width60x hgt60 ovh br50p">
+                            <img class="width-f" src="../images/default-image2.jpg" alt=""/>
+                        </div>
+                        <div class="width_auto ovh pg10l pg10t">
+                            <span class="width-f pl crgiga3 mg5r bold" href="#">Bill Gates</span>
+                            <p class="width-f pl crcc">
+                                Became Tom Aseka's Mentor
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb mentor-preview">
+                    <div class="mentor-preview-home">
+                        <div class="mentor-preview-home-content">
+                            <div class="width-f pl pg10a">
+                                <div class="pl width60x hgt60 ovh br50p">
+                                    <img class="width-f" src="../images/default-image3.jpg" alt=""/>
+                                </div>
+                                <div class="width_auto ovh pg10l pg10t">
+                                    <span class="width-f pl crgiga3 mg5r bold" href="#">Barrack Obama</span>
+                                    <p class="width-f pl cr66">
+                                        Lorem ipsum dolor sit amet, nonumy fuisset eam ne, dolor electram voluptatum ex has.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="width-f bgf4 pg3tb pg8lr pl bort bor1 borcdd">
+
+                                <div class="width-f pl pg5lr">
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-heart mg5r crbb"></i>
+                                        .
+                                        Like
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-envelope mg5r crbb"></i>
+                                        .
+                                        Comment
+                                    </a>
+                                    <a class="crgiga1 pg5tb pg15lr pl crgiga3" href="#">
+                                        <i class="fa fa-share-alt mg5r crbb"></i>
+                                        .
+                                        Gig
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width-f pl">
+                        <div class="pl width60x hgt60 ovh br50p">
+                            <img class="width-f" src="../images/default-image2.jpg" alt=""/>
+                        </div>
+                        <div class="width_auto ovh pg10l pg10t">
+                            <span class="width-f pl crgiga3 mg5r bold" href="#">Bill Gates</span>
+                            <p class="width-f pl crcc">
+                                Became Tom Aseka's Mentor
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="width-f pl mg10t">
+                    <div class="pr pg10lr">
+                        <a href="#" class="crgiga3">
+                            See All
+                            <i class="fa fa-caret-square-o-right mg5l"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="width-f pl pg5lr pg10b">
+        <h5 class="custom-header5 textl crcc borb bor1 borccc pg5b">
+            Suggested Friends
+        </h5>
+        <div class="width-f pl">
+            <ul class="width-f pl mg0a no-bullet">
+                <li class="width-f pl mg10tb">
+                    <div class="pl width60x hgt60 ovh">
+                        <img class="width-f" src="../images/default-image3.jpg" alt=""/>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="width-f pl crgiga3 mg5r bold" href="#">Elizabeth Doolittle</a>
+                                <span class="width-f pl crcc">
+                                    3 mutual friends
+                                </span>
+                        <span class="pl pg2tb pg10lr bg66 crcc br4">Send Request</span>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb">
+                    <div class="pl width60x hgt60 ovh">
+                        <img class="width-f" src="../images/default-image4.jpg" alt=""/>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="width-f pl crgiga3 mg5r bold" href="#">Elizabeth Doolittle</a>
+                                <span class="width-f pl crcc">
+                                    3 mutual friends
+                                </span>
+                        <span class="pl pg2tb pg10lr bg66 crcc br4">Send Request</span>
+                    </div>
+                </li>
+                <li class="width-f pl mg10tb">
+                    <div class="pl width60x hgt60 ovh">
+                        <img class="width-f" src="../images/default-image5.jpg" alt=""/>
+                    </div>
+                    <div class="width_auto ovh pg10l">
+                        <a class="width-f pl crgiga3 mg5r bold" href="#">Elizabeth Doolittle</a>
+                                <span class="width-f pl crcc">
+                                    3 mutual friends
+                                </span>
+                        <span class="pl pg2tb pg10lr bg66 crcc br4">Send Request</span>
+                    </div>
+                </li>
+                <li class="width-f pl mg10t">
+                    <div class="pr pg10lr">
+                        <a href="#" class="crgiga3">
+                            See All
+                            <i class="fa fa-caret-square-o-right mg5l"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>

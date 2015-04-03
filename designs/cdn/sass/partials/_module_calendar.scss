@@ -1,0 +1,23 @@
+.event-compare{
+
+  &>span{
+    padding:5px 10px;
+    float: left;
+    color:#FFF;
+    &:nth-child(5n + 1){
+      background: darken($sec-color,5%);
+    }
+    &:nth-child(5n + 2){
+      background: darken($sec-color,10%);
+    }
+    &:nth-child(5n + 3){
+      background: darken($sec-color,15%);
+    }
+    &:nth-child(5n + 4){
+      background: darken($sec-color,25%);
+    }
+    &:nth-child(5n + 5){
+      background: darken($sec-color,30%);
+    }
+  }
+}

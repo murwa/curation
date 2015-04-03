@@ -1,0 +1,215 @@
+// classroom
+
+
+.assign-nav{
+
+  li.active a{
+    background: #fff;
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color:$succes !important;
+  }
+}
+.mark-assignment-popup{
+  width:96%;
+  .mark-assigment-left{
+    @extend %width-custom2;
+  }
+  .mark-assigment-right{
+    width:25%;
+    min-width: 280px;
+    float: right;
+  }
+}
+
+.clarification-load{
+
+  .clarification-load-reply{
+    @extend %width-custom1;
+    @include transition(all, .5s);
+    padding:5px 10px;
+    background: #fff;
+
+    &:hover{
+      background: $alert;
+      a{
+        color:#FFF;
+      }
+    }
+  }
+}
+.add-on{
+  position: absolute;
+  right:0;
+  margin:8px 0 0 0;
+}
+.welcome-classes{
+  @include leader(2);
+  h2{
+    @include adjust-font-size-to(45px);
+    font-family: 'source_sans_prolight';
+    font-weight: 300;
+    text-align: center;
+  }
+  h3{
+    @include adjust-font-size-to(24px);
+    font-family: 'source_sans_prolight';
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.search-class-start{
+  position:relative;
+
+
+  input.search-class{
+    width:100%;
+    padding:10px ;
+    border:8px solid $main;
+    border-radius: 3px;
+    //border:1px solid darken($main ,10%);
+    overflow: hidden;
+
+    &:focus{
+      border:8px solid $sec-color !important;
+      //border:1px solid darken($sec-color ,10%);
+    }
+  }
+  .search-class-link{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:16px;
+    i{
+      color:$sec-color;
+    }
+
+  }
+}
+
+.class-member-img{
+  max-width: 30px;
+  max-height: 30px;
+  margin: -7px -8px -7px 0px;
+  float: right;
+}
+
+
+// tasks and todo's styles
+
+
+.todo-right{
+  width:auto;
+  overflow: hidden;
+  padding-left: 10px;
+  &>p{
+    height: 20px;
+    overflow: hidden;
+  }
+  &>.time-todo{
+    margin: -5px 0 0 0;
+    padding: 0;
+    font-family: 'source_sans_prolight_italic';
+    font-weight: 700;
+    height: 20px;
+    &>span{
+      color: $alert;
+      @include adjust-font-size-to(11px);
+    }
+
+  }
+}
+.urgent-due{
+  &>div.due-time>span{
+    background-color:$alert;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #fff;
+  }
+}
+.important-due{
+  &>div.due-time>span{
+    background-color:$succes;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #fff;
+  }
+}
+.normal-due{
+  &>div.due-time>span{
+    background-color:$main;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #fff;
+  }
+}
+.urgent-task{
+
+  .priority-color{
+    color: $alert;
+  }
+}
+
+.important-task{
+
+  .priority-color{
+    color: $main;
+  }
+}
+
+.normal-task{
+
+  .priority-color{
+    color: #555;
+  }
+}
+.task-load{
+  min-height: 40px;
+  height: 40px;
+}
+.task-p{
+  @include adjust-font-size-to(13px);
+  @include adjust-leading-to(2, 18px);
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  &>.task-span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    padding: 0px 6px;
+    float: right;
+    font-family: 'source_sans_prolight_italic';
+    font-weight: 700;
+
+  }
+}
+.todo-p{
+  @include adjust-font-size-to(14px);
+  @include adjust-leading-to(2, 14px);
+  height: 1.714em;
+  padding: 0;
+  margin: 1px 0 0 0;
+  float: left;
+  position: relative;
+}
+.completed-tasks{
+  @extend %width-custom1;
+  position: relative;
+
+  &:before{
+    content: "";
+    position: absolute;
+    @extend %width-custom1;
+    top:50%;
+    left: 0;
+    border: 1px solid #3399cc;
+    z-index: 100;
+  }
+}

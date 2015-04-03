@@ -1,0 +1,190 @@
+// breakpoints
+$SXX:    300px;
+$SX:    400px;
+$S:     600px;
+$M:     768px;
+$L:     960px;
+$ML:    1360px;
+$XL:    1440px;
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == SXX {
+    @media only screen and (min-width: $SXX) { @content; }
+  }
+  @if $canvas == SX {
+    @media only screen and (min-width: $SX) { @content; }
+  }
+  @else if $canvas == S {
+    @media only screen and (min-width: $S) { @content; }
+  }
+  @else if $canvas == M {
+    @media only screen and (min-width: $M) { @content; }
+  }
+  @else if $canvas == L {
+    @media only screen and (min-width: $L) { @content; }
+  }
+  @else if $canvas == ML {
+    @media only screen and (min-width: $ML) { @content; }
+  }
+  @else if $canvas == XL {
+    @media only screen and (min-width: $XL) { @content; }
+  }
+}
+
+.hide {
+  display: none !important;
+  visibility: hidden; }
+
+.invisible {
+  visibility: hidden; }
+.center{
+  @include center(x);
+}
+.show-l{
+    display: none;
+    @include MQ(L){
+      display: block;
+    }
+  
+    .show-m{
+      display: none;
+      @include MQ(M){
+        display: block;
+      }
+    }
+}
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  //max-width: 80em;
+}
+.row-2 {
+  max-width: 70em;
+}
+  .row:before, .row:after {
+    content: " ";
+    display: table; 
+  }
+  .row:after {
+    clear: both; 
+  }
+  .row.collapse > .column,
+  .row.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row.collapse .row {
+    margin-left: 0;
+    margin-right: 0; 
+  }
+  .row .row {
+    width: auto;
+    margin-left: -0.9375em;
+    margin-right: -0.9375em;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none; 
+  }
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table; 
+}
+.row .row:after {
+  clear: both; 
+}
+.row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none; 
+}
+.row .row.collapse:before,
+.row .row.collapse:after {
+    content: " ";
+    display: table; 
+  }
+  .row .row.collapse:after {
+    clear: both; 
+  }
+
+.column,
+.columns {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+[class*="column"] + [class*="column"]:last-child {
+  float: right; }
+
+[class*="column"] + [class*="column"].end {
+  float: left; }
+
+$column-resp1 : 12;
+
+@media only screen {
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+  }
+  @for $i from 1 through $column-resp1 {
+
+    .small-#{$i} {
+      width: ((100 / $column-resp1) *$i ) * 1%;
+    }
+  }
+}
+
+@media only screen and (min-width: $M) {
+  @for $i from 1 through $column-resp1 {
+
+    .medium-#{$i} {
+      width: ((100 / $column-resp1) *$i ) * 1%;
+    }
+  }
+
+}
+
+@media only screen and (min-width: $L) {
+  @for $i from 1 through $column-resp1 {
+
+    .large-#{$i} {
+      width: ((100 / $column-resp1) *$i ) * 1%;
+    }
+  }
+}
+@media only screen and (min-width: $ML) {
+  @for $i from 1 through $column-resp1 {
+
+    .mlarge-#{$i} {
+      width: ((100 / $column-resp1) *$i ) * 1%;
+    }
+  }
+}
+@media only screen and (min-width: $XL) {
+  @for $i from 1 through $column-resp1 {
+    @if $i == 8{
+      .xlarge-8c {
+        width: 60%;
+      }
+      .xlarge-2c {
+        width: 20%;
+      }
+    }
+    @if $i == 10 {
+      .xlarge-10c{
+        width: 80%;
+      }
+    }
+    .xlarge-#{$i} {
+      width: ((100 / $column-resp1) *$i ) * 1%;
+    }
+  }
+}

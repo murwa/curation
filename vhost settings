@@ -1,0 +1,37 @@
+
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/curation/public"
+    ServerName dev.curation.com
+    ServerAlias www.dev.curation.com
+    ErrorLog "logs/dev.curation.com.log"
+    CustomLog "logs/dev.curation.com.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/curation/designs/cdn"
+    ServerName cdn.curation.com
+    ServerAlias www.cdn.curation.com
+    ErrorLog "logs/cdn.curation.com.log"
+    CustomLog "logs/cdn.curation.com.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/curation/designs/images"
+    ServerName images.curation.com
+    ServerAlias www.images.curation.com
+    ErrorLog "logs/images.curation.com.log"
+    CustomLog "logs/images.curation.com.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/curation/storage/uploads"
+    ServerName uploads.curation.com
+    ServerAlias www.uploads.curation.com
+    ErrorLog "logs/uploads.curation.com.log"
+    CustomLog "logs/uploads.curation.com.log" common
+</VirtualHost>
